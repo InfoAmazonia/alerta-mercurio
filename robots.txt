@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://mercurio.infoamazonia.org/sitemap.xml
+Host: https://mercurio.infoamazonia.org
