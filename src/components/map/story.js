@@ -25,7 +25,7 @@ export default function Story({children, image, map, coords, zoom}) {
 	return (
 		<div ref={rootNode} className="story">
 			{isVisible && fly() }
-			{image && <img src={image} /> }
+			{image && <img alt="" src={image} /> }
 			<div className="story-content">
 				{children}
 			</div>

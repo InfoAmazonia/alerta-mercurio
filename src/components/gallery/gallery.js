@@ -1,16 +1,14 @@
 import React, { useState } from "react"
 import Slider from "react-slick"
-import uniqueId from 'lodash/uniqueId'
 import { FormattedMessage } from "gatsby-plugin-intl"
 import "./_gallery.scss"
 import "./_slick.scss"
-import Photo from './photo'
 import Arrow from "../../images/arrow-slider.svg";
 
 export default function Gallery( { children } ) {
 	const gallerySlider = React.createRef();
 
-	const [settings, setSettings] = useState({
+	const [settings] = useState({
 		lazyLoad: true,
 		infinite: true,
 		speed: 500,

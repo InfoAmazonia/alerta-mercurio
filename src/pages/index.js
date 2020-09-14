@@ -33,15 +33,6 @@ export default function Home() {
 		<Layout>
 			<Helmet title={intl.formatMessage( {id: `site.title`} )} >
 				<html lang={localeTags[intl.locale]} />
-				<script async src={`https://www.googletagmanager.com/gtag/js?id=UA-32852801-5`}></script>
-				<script>
-					{`
-					window.dataLayer = window.dataLayer || [];
-					function gtag(){dataLayer.push(arguments);}
-					gtag('js', new Date());
-					gtag('config', "UA-32852801-5");
-					`}
-				</script>
 			</Helmet>
 
 			<main id="content">

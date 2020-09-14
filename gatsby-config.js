@@ -11,6 +11,8 @@ module.exports = {
 		title: 'Infoamazônia - Mercúrio',
 		description: 'Mercúrio, uma chaga na floresta amazônica.',
 		siteURL: 'https://mercurio.infoamazonia.org',
+		image: "/images/site-metaimage.jpg", // Path to your image you placed in the 'static' folder
+	    twitterUsername: "@infoamazonia",
 	},
 	plugins: [
 		 `gatsby-plugin-react-helmet`,

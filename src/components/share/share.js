@@ -1,6 +1,6 @@
 import React from "react"
 import Dropdown from 'react-bootstrap/Dropdown';
-import { FormattedMessage, formatMessage, useIntl } from "gatsby-plugin-intl"
+import { FormattedMessage, useIntl } from "gatsby-plugin-intl"
 import { useStaticQuery, graphql } from 'gatsby';
 import Icon from "../icon/icon"
 import "./_share.scss"

@@ -38,7 +38,14 @@
 	}
 
 	a {
-		color: currentColor;
+		color: $gray-400;
+		text-decoration: underline;
+		text-decoration-color: $gray-700;
+
+		@include hover-et-all {
+			color: $orange;
+			text-decoration-color: currentColor;
+		}
 	}
 
 	h3, h4 {

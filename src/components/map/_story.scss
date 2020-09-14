@@ -53,8 +53,9 @@
 	}
 
 	&:first-child {
-		height: 100vh;
-		margin-top: 10vh;
+		position: relative;
+		padding-top: 10vh;
+		margin-top: 0;
 
 		.story-content {
 			margin: 0 auto 0 0;

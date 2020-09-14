@@ -1,5 +1,5 @@
 import React from "react"
-import { useIntl, FormattedMessage } from "gatsby-plugin-intl"
+import { useIntl } from "gatsby-plugin-intl"
 
 export default function MenuMap() {
 	const intl = useIntl();

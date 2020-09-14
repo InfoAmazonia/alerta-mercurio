@@ -88,8 +88,8 @@ export default function Header() {
 
 						<h4><FormattedMessage id="footer.project_team.website" /></h4>
 						<ul>
-							<li><a href="#">Datadot</a></li>
-							<li><a href="#">Haste</a></li>
+							<li><a href="http://www.datadotestudio.com/">Datadot</a></li>
+							<li><a href="http://www.hastedesign.com.br/">Haste</a></li>
 						</ul>
 
 						<h4><FormattedMessage id="footer.project_team.translations" /></h4>
