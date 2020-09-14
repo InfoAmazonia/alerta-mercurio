@@ -1,0 +1,17 @@
+@import "../../styles/settings";
+
+.social-links {
+	display: grid;
+	grid-auto-flow: column;
+	grid-gap: .5rem;
+
+	.social {
+		display: block;
+		padding: .5em;
+		color: currentColor;
+
+		@include hover-et-all {
+			color: $orange;
+		}
+	}
+}

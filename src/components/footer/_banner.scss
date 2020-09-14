@@ -1,0 +1,40 @@
+@import "../../styles/settings";
+
+.banner {
+	position: relative;
+	color: $white;
+	border-top: 2px solid $black;
+	margin-top: -2px;
+
+	img {
+		width: 100%;
+		height: 420px;
+		object-fit: cover;
+		object-position: center 70%;
+		transform: scaleX(-1);
+	}
+
+	.banner-content {
+		width: 100%;
+		position: absolute;
+		bottom: 30px;
+		left: 50%;
+		transform: translateX(-50%);
+		display: grid;
+		grid-gap: 30px;
+
+		@include media-breakpoint-up(md) {
+			grid-auto-flow: column;
+			grid-auto-columns: max-content;
+			justify-content: space-between;
+			align-items: end;
+		}
+	}
+
+	.logo {
+		svg {
+			width: 300px;
+			color: $white;
+		}
+	}
+}

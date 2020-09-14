@@ -1,0 +1,68 @@
+//
+// Colors
+//
+$black: #000;
+$white: #fff;
+$orange: #F66A32;
+$orange-dull: #D8653C;
+
+$gray-100: #f8f8f8;
+$gray-200: #e9e9e9;
+$gray-300: #ddd;
+$gray-400: #ccc;
+$gray-500: #aaa;
+$gray-600: #666;
+$gray-700: #444;
+$gray-800: #333;
+$gray-900: #222;
+
+$link-color: $orange;
+$primary: $orange;
+
+//
+// Typography
+//
+
+$font-size-base:              1.125rem; // Assumes the browser default, typically `16px`
+$font-size-lg:                $font-size-base * 1.25;
+$font-size-sm:                $font-size-base * .75;
+
+$font-family-base: 'Open Sans', sans-serif;
+$font-family-display: 'Ultra', serif;
+
+$line-height-base:            1.333;
+
+$h1-font-size:                $font-size-base * 2.5;
+$h2-font-size:                $font-size-base * 1.55;
+$h3-font-size:                $font-size-base * 1.4;
+$h4-font-size:                $font-size-base * 1.3;
+$h5-font-size:                $font-size-base * 1.2;
+$h6-font-size:                $font-size-base;
+
+$headings-font-family:        $font-family-display;
+$headings-font-weight:        400;
+$headings-line-height:        1.35;
+$headings-color:              $black;
+
+$paragraph-margin-bottom:	  1.5rem;
+
+$container-max-width: 1200px;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: $container-max-width
+);
+
+$content-margin: 300px;
+$content-width-narrow: $container-max-width - $content-margin * 2;
+$content-width-wide: $container-max-width - $content-margin;
+
+//
+// Transition
+//
+$transition-base: .3s all ease-in-out;
+
+$border-width: 2px;
+$border-color: $black;

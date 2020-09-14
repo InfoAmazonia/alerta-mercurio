@@ -1,0 +1,96 @@
+@import "../../styles/settings";
+
+.reports {
+	width: 100%;
+	background: $white;
+	border: 1px solid $black;
+	border-width: 1px 0 1px 0;
+	overflow: hidden;
+
+	.reports-header {
+		border: 1px solid $black;
+		padding: 1rem 0;
+		margin: 0 -1px;
+
+		h2 {
+			font-size: 21px;
+		}
+	}
+
+	.reports-grid {
+		display: flex;
+
+		@include media-breakpoint-down(sm) {
+			flex-direction: column;
+		}
+	}
+
+	.report {
+		overflow: hidden;
+		position: relative;
+		color: #aaa;
+		width: 100%;
+		min-width: 0;
+		border: 1px solid $black;
+		transition: 1.5s all ease -0.1s;
+		height: 180px;
+
+		@include media-breakpoint-up(md) {
+			width: 25%;
+			height: 600px;
+		}
+
+		@include hover-et-all {
+			color: $white;
+
+			@include media-breakpoint-down(sm) {
+				height: 300px;
+			}
+
+			@include media-breakpoint-up(md) {
+				min-width: 40%;
+			}
+		}
+
+		&:not(:hover) {
+
+			.report-image {
+				filter: saturate(0);
+			}
+		}
+	}
+
+	.report-image {
+		width: auto;
+		object-fit: cover;
+		object-position: center;
+		width: 100%;
+		height: 100%;
+		transition: $transition-base;
+	}
+
+	.report-text {
+		position: absolute;
+		right: 0;
+		bottom: 45px;
+		width: 230px;
+		background: $black;
+		padding: 1rem;
+		word-wrap: break-word;
+	}
+
+	.report-title {
+		color: inherit;
+		font-size: 21px;
+		letter-spacing: .05em;
+		margin-bottom: .2em;
+	}
+
+	.report-description {
+		font-size: 11px;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: .04em;
+		margin: 0;
+	}
+}

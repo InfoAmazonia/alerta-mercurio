@@ -1,0 +1,166 @@
+{
+	"site": {
+		"title": "Mercurio - uma chaga na floresta"
+	},
+	"partners": {
+		"title": "Em parceria com"
+	},
+	"action": {
+		"read": "Descubra",
+		"next": "Próximo"
+	},
+	"menu": {
+		"home": "Home",
+		"storymap": "Storymap",
+		"documentary": "Documentário",
+		"project": "Sobre o projeto",
+		"trafficking": "Tráfico de ouro"
+	},
+	"social": {
+		"share": "Compartilhe",
+		"facebook": {
+			"link_label": "Siga-nos no Facebook"
+		},
+		"instagram": {
+			"link_label": "Siga-nos no Instagram"
+		},
+		"twitter": {
+			"link_label": "Siga-nos no Twitter"
+		}
+	},
+	"countries": {
+		"guyana": "Guiana",
+		"suriname": "Suriname",
+		"brazil": "Brasil",
+		"venezuela": "Venezuela"
+	},
+	"storymap": {
+		"section": {
+			"title": "Redes tóxicas no Escudo das Guianas",
+			"text": "Viaje ao submundo do mercúrio na Guiana, Suriname, Venezuela e Brasil - uma indústria multimilionária que ameaça a Amazônia"
+		}
+	},
+	"gold": {
+		"section": {
+			"title": "Rastreando o ouro contaminado",
+			"text": "Investigação do tráfico de mercúrio revela como o ouro venezuelano é lavado em cadeias de abastecimento legítimas e pode acabar em produtos das maiores corporações do mundo."
+		}
+	},
+	"reports": {
+		"title": "Explore as reportagens",
+		"guyana": {
+			"title": "Guiana",
+			"description": "O Metal Tóxico à Sombra da Indústria do Ouro"
+		},
+		"suriname": {
+			"title": "Suriname",
+			"description": "A Corrida do Ouro Ameaça o País mais Verde do Mundo"
+		},
+		"venezuela": {
+			"title": "Venezuela",
+			"description": "Cuyuní: onde o mercúrio brilha mais do que o ouro"
+		},
+		"brazil": {
+			"title": "Brasil",
+			"description": "Corrida do ouro movimenta mercado de mercúrio em Roraima"
+		}
+	},
+	"related": {
+		"guyana": {
+			"title": "O Metal Tóxico à Sombra da Indústria do Ouro",
+			"description": "Apesar do seu risco à saúde e ao ambiente, o mercúrio é amplamente utilizado na extração de ouro, e para os mineiros na Amazônia, o líquido prateado é quase tão valioso como o próprio ouro."
+		},
+		"suriname": {
+			"title": "A Corrida do Ouro Ameaça o País mais Verde do Mundo",
+			"description": "Os cursos de água e os ventos do Suriname transportam mercúrio, um metal tóxico utilizado na extração de ouro, para regiões distantes das minas de ouro do país."
+		},
+		"venezuela": {
+			"title": "Nas margens de Cuyuní, o mercúrio brilha mais do que o ouro",
+			"description": "O mercúrio é mais seguro e mais lucrativo para o comércio do que o próprio ouro. Quanto mais perto você chegar da Guiana, mais barato você encontrará o procurado \"quicksilver\"."
+		},
+		"brazil": {
+			"title": "Corrida do ouro movimenta o mercado de mercúrio em Roraima",
+			"description": "A maior e mais industrializada economia da América do Sul, o Brasil, não produz mercúrio. Mas as suas minas de ouro ilegais em plena expansão não podem funcionar sem a substância tóxica."
+		}
+	},
+	"footer": {
+		"about": "Sobre o projeto",
+		"project_team": {
+			"title": "Project team",
+			"lead_investigator": "Investigador principal",
+			"reporters": "Reportagem",
+			"project_coordinator": "Coordenador do projeto",
+			"editor_in_chief": "Editora chefe",
+			"editors": "Editores",
+			"producers": "Produtores",
+			"videos": "Vídeos",
+			"website": "Desenvolvimento Web",
+			"translations": "Traduções",
+			"social_media": "Mídias sociais"
+		},
+		"documentary_team": {
+			"title": "Equipe do documentário",
+			"direction": "Direção e fotografia",
+			"lead_investigator": "Investigator principal",
+			"producer": "Produtor",
+			"editor": "Editor",
+			"investigators": "Reportagem",
+			"narrator": "Narração",
+			"motion_design": "Animação",
+			"sound_design": "Design de som",
+			"creative_consultant": "Consultora criativa",
+			"second_editor": "Segundo editor"
+		},
+		"supported": "Apoiado por"
+	},
+	"storymaps": {
+		"1": {
+			"title": "O mercúrio no Escudo das Guianas",
+			"content": "A mineração e comércio do ouro traçou uma marca profunda, uma linha vermelho-sangue na história da América Latina, desde que os conquistadores espanhóis submeteram as populações nativas a um reinado violento, na busca pelo El Dorado."
+		},
+		"2": {
+			"title": "Hoje, o ouro ainda é",
+			"content": "uma força econômica que move os países localizados no Escudo das Guianas, uma formação geológica de 1,7 bilhão de anos, sob as vastas florestas tropicais da Guiana, do Suriname, da Venezuela, da Colômbia e do Brasil. Mas o comércio de metais preciosos é amparado por um setor obscuro que poucos conhecem: o mercado do mercúrio, ele próprio uma indústria multimilionária."
+		},
+		"3": {
+			"title": "O elemento químico Hg,",
+			"content": "mais comumente conhecido como mercúrio ou azougue, é um dos pilares do mercado mundial de ouro. É amplamente usado na mineração de ouro de pequena escala, porque é um jeito barato e de baixa tecnologia de agludinar o ouro fino, díficil de ser capturado nos solos lamacentos."
+		},
+		"4": {
+			"title": "Quando adicionado ao sedimento,",
+			"content": "ele se liga às fagulhas de ouro para formar um amálgama. O mercúrio é posteriormente queimado, deixando apenas o ouro. Em média, os garimpeiros utilizam três gramas de mercúrio para produzir um grama de ouro, mas esses números variam muito, dependendo da técnica aplicada. Nas operações de mineração de pequena escala, praticamente todo o mercúrio usado é liberado para o meio ambiente."
+		},
+		"5": {
+			"title": "O mercúrio é uma das 10 principais substâncias químicas",
+			"content": "que representam uma grande ameaça à saúde pública, de acordo com a Organização Mundial da Saúde (OMS). Pequenas quantidades de mercúrio no corpo humano podem provocar dano cerebral, insuficiência renal e defeitos congênitos."
+		},
+		"6": {
+			"title": "A maioria dos 10 a 20 milhões de garimpeiros",
+			"content": "ao redor do mundo que trabalha em pequena ou média escala no setor de mineração de ouro usa o tóxico diariamente. Ele também polui os rios e se acumula na cadeia alimentar, impactando os ecossistemas e as populações distantes do próprio garimpo."
+		},
+		"7": {
+			"title": "A mineração de ouro representa 37 por cento das emissões globais antropogênicas de mercúrio.",
+			"content": ""
+		},
+		"8": {
+			"title": "Em 2017, foi adotado um tratado global",
+			"content": "que visa a reduzir a poluição por mercúrio, o Convênio de Minamata. Hoje 123 países fazem parte da convenção, que busca reduzir e, quando possível, banir o uso do mercúrio na mineração de ouro."
+		},
+		"9": {
+			"title": "Embora existam alternativas,",
+			"content": "até agora os tomadores de decisão falharam em fornecer aos garimpeiros da Amazônia, que dependem do mercúrio para produzir ouro de forma eficiente, ferramentas e treinamentos de que necessitem para abandonar ou reduzir o uso do metal líquido."
+		},
+		"10": {
+			"title": "Entre 70% e 80% desses garimpeiros",
+			"content": "estão presos em um ciclo de pobreza, trabalhando em operações de mineração informais e não licenciadas, onde muitas vezes são forçados a usar mercúrio pelos proprietários do projeto ou pelos comerciantes. Sem alternativas viáveis, um mercado ilícito de mercúrio floresceu, alimentado por grupos do crime organizado, por redes de traficantes e por interesses corporativos ocultos."
+		},
+		"11": {
+			"title": "Para entender o submundo do mercúrio",
+			"content": ", viajamos para as florestas da Amazônia com uma equipe internacional de jornalistas. Nós nos reunimos com especialistas, comerciantes, traficantes e garimpeiros, perseguindo o metal líquido em centros comerciais nas cidades litorâneas, ao longo das rotas de tráfico e através das fronteiras e em minas isoladas na densa floresta tropical. Descobrimos que o ouro extraído ilegalmente seguia as mesmas rotas para fora da selva e, enquanto os garimpeiros eram processados por causa do uso de mercúrio, os intermediários ficavam ricos."
+		},
+		"12": {
+			"title": "O senhor Wee Wee, um advogado dos garimpeiros",
+			"content": "do Suriname, explica que, apesar dos riscos, muitos mineiros não têm outra opção a não ser continuar trabalhando com o azougue. \"Se você quer tirar a faca das mãos de uma criança, é preciso substituí-la por um graveto ou um brinquedo\", diz ele."
+		}
+	}
+}

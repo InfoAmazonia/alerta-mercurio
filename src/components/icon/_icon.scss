@@ -1,0 +1,21 @@
+@import "../../styles/settings";
+
+.icon {
+	width: 1em;
+	height: 1em;
+	display: inline-block;
+	vertical-align: middle;
+
+	svg {
+		display: block;
+
+		* {
+			fill: currentColor;
+		}
+	}
+}
+
+.icon-caret {
+	padding: .25em;
+	color: $orange;
+}

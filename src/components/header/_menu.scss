@@ -1,0 +1,145 @@
+@import "../../styles/global";
+
+.menu-collapse {
+	position: fixed;
+	width: 100vw;
+	height: 101vh;
+	left: 0;
+	top: 0;
+	color: $black;
+	background: $orange-dull;
+	transition: opacity .1s ease, transform .7s ease;
+	z-index: 100;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+
+	&.collapse {
+		transform: scale(1.1) translateY(-100vh);
+		opacity: 0;
+		z-index: -1;
+	}
+}
+
+#main-menu {
+	.menu {
+		list-style: none;
+		margin: 30px 0 0 0;
+		padding: 0;
+
+		@include media-breakpoint-up(md) {
+			margin: 45px 0 0 0;
+		}
+	}
+
+	.menu-item {
+		font-family: $font-family-display;
+		font-size: 24px;
+		text-decoration: underline;
+		text-transform: uppercase;
+		margin: .5em 0;
+
+		@include media-breakpoint-up(md) {
+			font-size: 30px;
+		}
+
+		a {
+			color: $white;
+			padding: .2em;
+			display: block;
+
+			@include hover-et-all {
+				color: lighten($orange, 30%);
+			}
+		}
+	}
+
+	.social-links {
+		justify-content: center;
+		position: absolute;
+		bottom: 30px;
+		left: 50%;
+		transform: translateX(-50%);
+		font-size: 1.5rem;
+		color: $black;
+
+		a {
+			@include hover-et-all {
+				color: $white;
+			}
+		}
+	}
+}
+
+.menu-toggler {
+	background: transparent;
+	border: 0;
+	font-size: 2rem;
+	padding: 0 .3em .2em .3em;
+	color: currentColor;
+
+	.icon {
+		will-change: transform;
+		backface-visibility: hidden;
+		perspective: 1000;
+		transition: $transition-base;
+	}
+
+	@include hover-et-all {
+		outline: 0;
+		background: rgba($black, .05);
+
+		.icon {
+			transform: scale(.9);
+		}
+	}
+}
+
+.menu-close {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	font-family: $font-family-display;
+	background: transparent;
+	border: 1px solid $black;
+	border-radius: 1em;
+	font-size: 34px;
+	padding: 0 .3em;
+	outline: 0;
+
+	@include media-breakpoint-up(md) {
+		top: 45px;
+		right: 45px;
+	}
+
+	@include hover-et-all {
+		outline: 0;
+		background: $black;
+		color: $white;
+	}
+}
+
+.menu-map {
+	margin: -2px auto;
+	max-width: 200%;
+	max-height: 45vh;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	z-index: -1;
+	transform: translateX(-50%);
+
+	.country {
+		fill: $orange-dull;
+		transition: .2s all ease;
+	}
+
+	a {
+		@include hover-et-all {
+			.country {
+				fill: $white;
+				stroke: transparent;
+			}
+		}
+	}
+}

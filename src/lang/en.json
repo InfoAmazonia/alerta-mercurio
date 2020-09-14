@@ -1,0 +1,166 @@
+{
+	"site": {
+		"title": "Mercury - Chasing the Quicksilver"
+	},
+	"partners": {
+		"title": "In partnership with"
+	},
+	"action": {
+		"read": "Discover",
+		"next": "Next"
+	},
+	"menu": {
+		"home": "Home",
+		"storymap": "Storymap",
+		"documentary": "Documentary",
+		"project": "About the project",
+		"trafficking": "Gold trafficking"
+	},
+	"social": {
+		"share": "Share",
+		"facebook": {
+			"link_label": "Follow us on Facebook"
+		},
+		"instagram": {
+			"link_label": "Follow us on Instagram"
+		},
+		"twitter": {
+			"link_label": "Follow us on Twitter"
+		}
+	},
+	"countries": {
+		"guyana": "Guyana",
+		"suriname": "Suriname",
+		"brazil": "Brazil",
+		"venezuela": "Venezuela"
+	},
+	"storymap": {
+		"section": {
+			"title": "Toxic networks in the Guyana shield",
+			"text": "Travel into the underworld of mercury in Guyana, Suriname, Venezuela and Brazil - a multi-million dollar industry that threatens the Amazon"
+		}
+	},
+	"gold": {
+		"section": {
+			"title": "Tracing tainted gold",
+			"text": "Mercury trafficking reveals how Venezuelan gold is laundered into legitimate supply chains and could end up in products made by the world’s biggest corporations."
+		}
+	},
+	"reports": {
+		"title": "Explore the Stories",
+		"guyana": {
+			"title": "Guyana",
+			"description": "The toxic metal in the shadow of the gold trade"
+		},
+		"suriname": {
+			"title": "Suriname",
+			"description": "The gold rush threatening the world’s greenest country"
+		},
+		"venezuela": {
+			"title": "Venezuela",
+			"description": "Cuyuní: where mercury shines brighter than gold"
+		},
+		"brazil": {
+			"title": "Brazil",
+			"description": "Gold fever moves illicit mercury markets in roraima"
+		}
+	},
+	"related": {
+		"guyana": {
+			"title": "The Toxic Metal in the Shadow of the Gold Industry",
+			"description": "Despite its health and environmental risk, mercury is widely used in gold mining, and to miners in the Amazon, the silvery liquid is almost as valuable as the gold itself."
+		},
+		"suriname": {
+			"title": "The Gold Rush threatening the World's greenest country",
+			"description": "Suriname’s waterways and trade winds carry mercury, a toxic metal used in gold extraction, to regions far removed from the country’s gold mines."
+		},
+		"venezuela": {
+			"title": "On the shores of Cuyuní, Mercury shines brighter than gold",
+			"description": "The closer you get to Guyana, to the east, the cheaper you will find the sought-after ‘quicksilver.’ The opening of an air route last year between the capital Georgetown and the"
+		},
+		"brazil": {
+			"title": "New gold rush moves illicit mercury markets in Roraima",
+			"description": "South America’s largest and most industrialized economy, Brazil, doesn’t produce mercury. But its booming illegal gold mines can't work without the toxic substance."
+		}
+	},
+	"footer": {
+		"about": "About the project",
+		"project_team": {
+			"title": "Project team",
+			"lead_investigator": "Lead Investigator",
+			"reporters": "Reporters",
+			"project_coordinator": "Project coordinator",
+			"editor_in_chief": "Editor in chief",
+			"editors": "Editors",
+			"producers": "Producers",
+			"videos": "Videos",
+			"website": "Website development",
+			"translations": "Translations",
+			"social_media": "Social media"
+		},
+		"documentary_team": {
+			"title": "Documentary team",
+			"direction": "Direction and cinematography",
+			"lead_investigator": "Lead investigator",
+			"producer": "Producer",
+			"editor": "Editor",
+			"investigators": "Investigators",
+			"narrator": "Narrator",
+			"motion_design": "Motion Design",
+			"sound_design": "Sound Design",
+			"creative_consultant": "Creative Consultant",
+			"second_editor": "Second Editor"
+		},
+		"supported": "Supported by"
+	},
+	"storymaps": {
+		"1": {
+			"title": "Mercury in the Guyana Shield",
+			"content": "The gold trade runs like a blood-red line through the history of Latin America since the Spanish conquistadors subjected native populations to a violent reign in search of El Dorado."
+		},
+		"2": {
+			"title": "Today, gold is still",
+			"content": "a driving economic force in the countries that sit atop the Guiana Shield, a 1.7 billion-year-old geological formation beneath the vast rainforests of Guyana, Suriname, Venezuela, Colombia, and Brazil. But the trade in the precious metal is propped up by a shadow sector few know about: the mercury market, itself a multi-million dollar industry."
+		},
+		"3": {
+			"title": "The chemical element Hg,",
+			"content": "most commonly referred to as mercury or quicksilver, is one of the drivers of the global gold market. It is widely used in small-scale gold mining because it’s an inexpensive and low-tech way to trap the hard-to-catch, fine gold mixed in with soils."
+		},
+		"4": {
+			"title": "When added to sediment,",
+			"content": "it binds with flecks of gold to form an amalgam. The mercury is subsequently burned off, leaving behind the gold. On average, miners use three grams of mercury to produce one gram of gold, but these numbers vary a lot depending on the applied technique. In small-scale mining operations, virtually all of the mercury used is released into the environment."
+		},
+		"5": {
+			"title": "Mercury is one of the top 10 chemicals",
+			"content": "that pose a major threat to public health, according to the World Health Organization. Small amounts of mercury in the human body can cause brain damage, kidney issues, and congenital disabilities."
+		},
+		"6": {
+			"title": "Most of the 10 to 20 million miners",
+			"content": "around the world who work in the small or medium-scale gold mining sector use the contaminant daily. It also pollutes waterways and accumulates in the food chain, impacting ecosystems and populations far removed from the mining itself."
+		},
+		"7": {
+			"title": "Gold mining represents 37 percent of the global anthropogenic mercury emissions.",
+			"content": ""
+		},
+		"8": {
+			"title": "In 2017, a global treaty",
+			"content": "that aims to reduce mercury pollution called the Minamata Convention entered into force. Now, 123 countries are party to the convention, which reduces and where possible bans the use of mercury in gold mining."
+		},
+		"9": {
+			"title": "While alternatives exist,",
+			"content": "policy-makers so far failed to provide subsistence miners in the Amazon who depend on mercury to efficiently produce gold and make ends meet with the tools and training they need to abandon or reduce the use of the liquid metal."
+		},
+		"10": {
+			"title": "Between 70 and 80 percent of these miners",
+			"content": "are trapped in a poverty cycle, working in informal and unlicensed mining operations where they’re often forced to use mercury by project owners or traders. Without viable alternatives, an illicit mercury market has flourished, fed by organized crime groups, networks of traffickers, and hidden corporate interests."
+		},
+		"11": {
+			"title": "To understand the underworld of mercury,",
+			"content": "we traveled to the jungles of the Amazon with an international team of journalists. We met with experts, traders, traffickers, and miners chasing the quicksilver from trade hubs in seaside towns, along the trafficking routes through the borderlands, and into the secluded mines in the dense rainforest. We found that illegally mined gold followed the same routes out of the jungle, and while subsistence miners were prosecuted for mercury use, middlemen got rich."
+		},
+		"12": {
+			"title": "Mister Wee Wee, an advocate for gold miners",
+			"content": "in Suriname explains that, despite the risks, many miners have no other option than to continue to work with the liquid quicksilver. “If you want to take the knife out of the hands of a child, you have to replace it with a stick or a toy,” he says."
+		}
+	}
+}

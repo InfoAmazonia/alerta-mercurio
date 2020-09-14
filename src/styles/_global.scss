@@ -1,0 +1,17 @@
+//
+// Global Styles
+//
+
+@import "settings";
+
+@import "~bootstrap/scss/bootstrap-reboot";
+@import "~bootstrap/scss/utilities/embed";
+
+@import "fonts";
+@import "animations";
+
+
+// Styles ----------------------------------------------------
+@import "container";
+@import "base";
+@import "accessibility";

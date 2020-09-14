@@ -1,0 +1,80 @@
+@import "../../styles/settings";
+
+.gallery {
+	$offset: 17px;
+	width: 100%;
+	margin: 90px 0;
+	position: relative;
+
+	@include media-breakpoint-down(sm) {
+		margin: 30px -15px;
+		min-width: 100vw;
+	}
+
+	.slick-slide {
+		position: relative;
+		padding: 0 10px 0 0;
+
+		img {
+			width: 100%;
+			object-fit: cover;
+			min-height: 200px;
+
+			@include media-breakpoint-up(md) {
+				min-height: 30vh;
+			}
+		}
+
+		p {
+			margin: 0;
+			outline: none;
+		}
+
+		em {
+			font-style: normal;
+			font-size: .95rem;
+			line-height: 1.5;
+			font-weight: 600;
+			display: block;
+			color: $orange;
+			background: $white;
+			padding: 1.5em 2em;
+
+			@include media-breakpoint-up(md) {
+				max-width: 380px;
+				position: absolute;
+				bottom: 0;
+				right: 0;
+			}
+		}
+
+		.gatsby-resp-image-wrapper {
+			margin: 0;
+			min-width: 100%;
+		}
+	}
+
+	.slick-list {
+		padding-right: 20%;
+	}
+
+	.gallery-next {
+		background: transparent;
+		border: 0;
+		padding: .5em;
+		border-radius: .5em;
+		position: absolute;
+		bottom: 30px;
+		right: 20px;
+
+		@include media-breakpoint-down(sm) {
+			display: none;
+		}
+
+		@include hover-et-all {
+			outline: 0;
+			border: 0;
+			background: rgba($black, .1);
+		}
+	}
+}

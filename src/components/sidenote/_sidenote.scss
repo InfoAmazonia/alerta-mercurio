@@ -1,0 +1,29 @@
+@import "../../styles/settings";
+
+.sidenote {
+	margin: 30px 0;
+	padding: 20px 0;
+	font-size: $font-size-sm;
+	font-weight: 700;
+	color: $gray-700;
+	border: 2px dotted $gray-500;
+	border-width: 2px 0 2px 0;
+
+	@include media-breakpoint-up(md) {
+		margin: 0;
+		position: absolute;
+		overflow: hidden;
+		width: 20ch;
+		right: calc(100% - #{$content-margin});
+
+		&.right {
+			left: calc(100% - #{$content-margin});
+			right: unset;
+		}
+	}
+
+	svg,
+	iframe {
+		max-width: 100%;
+	}
+}

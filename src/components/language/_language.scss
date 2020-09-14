@@ -1,0 +1,39 @@
+@import "../../styles/settings";
+
+.language-switch {
+
+	.dropdown-toggle {
+		font-family: $font-family-display;
+		text-transform: uppercase;
+		background: transparent;
+		border: 0;
+		outline: 0;
+		padding: .5em;
+		color: currentColor;
+
+		@include hover-et-all {
+			background: rgba($black, .05);
+		}
+	}
+
+	.dropdown-menu {
+		background: $white;
+		border: 1px solid $gray-100;
+		padding: .3em 0;
+		box-shadow: $box-shadow;
+		min-width: 130px;
+		z-index: 50;
+	}
+
+	.dropdown-item {
+		display: flex;
+		flex-direction: column;
+		padding: .5em 1em;
+		font-size: $font-size-sm;
+
+		@include hover-et-all {
+			background: rgba($black, .05);
+			text-decoration: none;
+		}
+	}
+}
