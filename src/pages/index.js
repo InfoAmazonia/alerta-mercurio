@@ -1,6 +1,7 @@
 import React, { useEffect } from "react"
 import Layout from "../components/layout/layout"
 import Reports from "../components/reports/reports"
+import Seo from "../components/seo/seo"
 import Gold from "../components/gold/gold"
 import { Helmet } from 'react-helmet';
 import { changeLocale, FormattedMessage, Link, useIntl } from "gatsby-plugin-intl"
@@ -34,6 +35,10 @@ export default function Home() {
 			<Helmet title={intl.formatMessage( {id: `site.title`} )} >
 				<html lang={localeTags[intl.locale]} />
 			</Helmet>
+			<Seo 
+				title={intl.formatMessage( {id: `site.title`} )}
+				description={intl.formatMessage( {id: `site.description`} )}
+			/>
 
 			<main id="content">
 				<section className="home-section section-storymap">

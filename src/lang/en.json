@@ -1,6 +1,13 @@
 {
 	"site": {
-		"title": "Mercury - Chasing the Quicksilver"
+		"title": "Mercury - Chasing the Quicksilver",
+		"description": "An investigation into the illegal mercury trade in the Amazon.  Read more at mercury.infoamazonia.org via @InfoAmazonia w/ @showdavida and @armando.info"
+	},
+	"seo": {
+		"storymap": {
+			"title": "Toxic networks in the Guyana shield",
+			"description": "Travel into the underworld of mercury in Guyana, Suriname, Venezuela and Brazil - a multi-million dollar industry that threatens the Amazon. Discover at @infoamazonia interactive map"
+		}
 	},
 	"partners": {
 		"title": "In partnership with"

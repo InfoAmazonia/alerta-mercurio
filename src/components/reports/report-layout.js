@@ -2,6 +2,7 @@ import React from "react"
 import { MDXProvider } from "@mdx-js/react"
 import { Helmet } from 'react-helmet';
 import { useIntl, Link, FormattedMessage, FormattedDate, IntlProvider } from "gatsby-plugin-intl"
+import Seo from "../seo/seo"
 import Video from "../video/video"
 import Sidenote from "../sidenote/sidenote"
 import Gallery from "../gallery/gallery"
@@ -81,6 +82,11 @@ export default function ReportLayout({ children, meta, pageContext, location }) 
 	return (
 		<IntlProvider locale={intl.locale} messages={flattenMessages(messages[intl.locale])}>
 			<Helmet title={pageTitle} />
+			<Seo 
+				title={meta.title}
+				description={meta.intro}
+				image={`/images/${pageContext.frontmatter.path.replace('/','')}.jpg`}
+		    />
 			<Layout>
 				<main id="content">
 					<article id="report">

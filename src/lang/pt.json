@@ -1,6 +1,13 @@
 {
 	"site": {
-		"title": "Mercurio - uma chaga na floresta"
+		"title": "Mercurio - uma chaga na floresta",
+		"description": "\"Mercúrio\" Uma investigação sobre a rota ilegal do mercúrio na Amazônia. Saiba mais em mercury.infoamazonia.org  via @infoamazoniaBR com @showdavida e @armando.info"
+	},
+	"seo": {
+		"storymap": {
+			"title": "Redes tóxicas no Escudo das Guianas",
+			"description": "Viaje ao submundo do mercúrio na Guiana, Suriname, Venezuela e Brasil - uma indústria multimilionária que ameaça a Amazônia. Navegue pelo mapa interativo do @infoamazoniaBR"
+		}
 	},
 	"partners": {
 		"title": "Em parceria com"

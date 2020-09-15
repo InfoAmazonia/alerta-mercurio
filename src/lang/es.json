@@ -1,6 +1,13 @@
 {
 	"site": {
-		"title": "Mercurio - una huella en la selva"
+		"title": "Mercurio - una huella en la selva",
+		"description": "\"Mercurio\" Una investigación sobre la ruta ilegal del mercurio en la Amazonía. Sepa más en mercurio.infoamazonia.org  via @infoamazoniaesp con @showdavida y @armando.info"
+	},
+	"seo": {
+		"storymap": {
+			"title": "Las redes tóxicas en el Escudo Guyanés",
+			"description": "Viaje al submundo del mercurio en Guyana, Surinam, Venezuela y Brasil - una industria multimillonaria que amenaza lal Amazonía. Descubre en el mapa interactivo de @infoamazoniaesp"
+		}
 	},
 	"partners": {
 		"title": "En alianza con"

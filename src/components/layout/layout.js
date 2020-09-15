@@ -1,6 +1,5 @@
 import React from "react"
 import { Helmet } from 'react-helmet'
-import Seo from "../seo/seo"
 import Header from "../header/header"
 import Footer from "../footer/footer"
 import "../../styles/_global.scss"
@@ -20,7 +19,6 @@ export default function Layout({ children }) {
 					`}
 				</script>
 			</Helmet>
-			<Seo />
 			<Header />
 			{children}
 			<Footer />
