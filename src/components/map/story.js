@@ -2,11 +2,11 @@ import React, { useRef } from "react"
 import "./_story.scss"
 import useVisibilitySensor from "@rooks/use-visibility-sensor"
 
-export default function Story({children, image, map, coords, zoom}) {
+export default function Story({children, image, map, coords, zoom, intervalCheck}) {
 	const rootNode = useRef(null);
 	
 	const { isVisible } = useVisibilitySensor(rootNode, {
-        intervalCheck: false,
+        intervalCheck: intervalCheck || false,
         scrollCheck: true,
 		resizeCheck: true,
 		partialVisibility: true
@@ -24,7 +24,7 @@ export default function Story({children, image, map, coords, zoom}) {
 	
 	return (
 		<div ref={rootNode} className="story">
-			{isVisible && fly() }
+			{isVisible && fly()}
 			{image && <img alt="" src={image} /> }
 			<div className="story-content">
 				{children}

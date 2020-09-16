@@ -6,7 +6,9 @@
 	position: fixed;
 	top: 0;
 	z-index: -1;
+}
 
+.mapboxgl-canvas-container {
 	&:after {
 		content: '';
 		display: block;

@@ -21,7 +21,7 @@ import MrWeeWee from "!url-loader!../../images/fotos/mr-wee-wee.jpg";
 
 export default function Map() {
 	const intl = useIntl();
-	const [map,setMap] = useState();
+	const [map,setMap] = useState(undefined);
 
 	const chart = {
 		"en": ChartEN,
@@ -51,7 +51,7 @@ export default function Map() {
 				</Helmet>
 			</div>
 			<div className="stories">
-				<Story map={map} coords={[-61.923933,-2.0154164]} zoom={3}>
+				<Story map={map} coords={[-61.923933,-2.0154164]} zoom={3} intervalCheck={2000}>
 					<h1><FormattedMessage id="storymaps.1.title" /></h1>
 					<p><FormattedMessage id="storymaps.1.content" /></p>
 				</Story>

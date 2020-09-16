@@ -1,13 +1,18 @@
 import React from "react"
+import loadable from "@loadable/component"
 import { MDXProvider } from "@mdx-js/react"
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 import { useIntl, Link, FormattedMessage, FormattedDate, IntlProvider } from "gatsby-plugin-intl"
 import Seo from "../seo/seo"
 import Video from "../video/video"
 import Sidenote from "../sidenote/sidenote"
 import Gallery from "../gallery/gallery"
-import Layout from "../layout/layout"
 import Share from "../share/share"
+
+// Lazy
+const Layout = loadable(() => import('../layout/layout'));
+
+// Style
 import "./_report-layout.scss"
 
 // Minimaps
