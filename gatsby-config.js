@@ -8,7 +8,7 @@ const { lazy } = require("react");
 
 module.exports = {
 	siteMetadata: {
-		title: 'Infoamazônia - Mercúrio',
+		title: 'Infoamazonia - Mercúrio',
 		description: 'Mercúrio, uma chaga na floresta amazônica.',
 		siteURL: 'https://mercurio.infoamazonia.org',
 		image: "/images/mercury.jpg", // Path to your image you placed in the 'static' folder
