@@ -9,9 +9,6 @@ import Sidenote from "../sidenote/sidenote"
 import Gallery from "../gallery/gallery"
 import Share from "../share/share"
 
-// Lazy
-const Layout = loadable(() => import('../layout/layout'));
-
 // Style
 import "./_report-layout.scss"
 
@@ -27,6 +24,9 @@ import pt from '../../lang/pt.json'
 import es from '../../lang/es.json'
 
 const messages = { en, pt, es }
+
+// Lazy
+const Layout = loadable(() => import('../layout/layout'));
 
 // Shortcodes
 const shortcodes = { Video, Sidenote, Gallery }
@@ -87,7 +87,7 @@ export default function ReportLayout({ children, meta, pageContext, location }) 
 	return (
 		<IntlProvider locale={intl.locale} messages={flattenMessages(messages[intl.locale])}>
 			<Helmet title={pageTitle} />
-			<Seo 
+			<Seo
 				title={meta.title}
 				description={meta.intro}
 				image={`/images/${pageContext.frontmatter.path.replace('/','')}.jpg`}
