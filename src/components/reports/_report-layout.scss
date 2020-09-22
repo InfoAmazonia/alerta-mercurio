@@ -2,7 +2,7 @@
 
 #report-header {
 	display: grid;
-	align-items: end;
+	align-items: center;
 	margin-bottom: 60px;
 	border-bottom: 2px solid $black;
 	min-height: 75vh;
@@ -12,8 +12,7 @@
 	}
 
 	.report-header-content {
-		padding: 30px;
-		grid-row: 1;
+		padding: 30px 15px;
 
 		@include media-breakpoint-up(md) {
 			grid-row: auto;
@@ -117,7 +116,7 @@
 		&:first-of-type {
 			strong:first-of-type {
 				font-family: $font-family-display;
-				font-size: 26px;
+				font-size: 21px;
 				font-weight: 400;
 				text-transform: uppercase;
 				color: $black;
@@ -128,15 +127,24 @@
 				margin-bottom: 2em;
 
 				@include media-breakpoint-up(md) {
+					font-size: 26px;
 					margin: 0 0 2em -#{$content-margin / 2};
 				}
 			}
 		}
 	}
 
-	> h2, > h3, > h4, > h5, > h6 {
-		width: $content-width-narrow;
+	> h2,
+	> h3,
+	> h4,
+	> h5,
+	> h6 {
 		margin: 2em auto;
+		width: $content-width-narrow;
+		font-family: $font-family-base;
+		font-size: 1.2rem;
+		font-weight: 700;
+		letter-spacing: .07em;
 	}
 
 	blockquote {
