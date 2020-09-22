@@ -69,11 +69,17 @@
 		list-style: none;
 	}
 
+	.footer-partners {
+		@include media-breakpoint-down(sm) {
+			text-align: center;
+		}
+	}
+
 	.logo-list {
 		display: grid;
 		justify-items: center;
 		grid-gap: 30px;
-		padding: 2rem 0;
+		padding: 1rem 0 3rem 0;
 
 		img {
 			filter: saturate(0) brightness(2);
@@ -88,6 +94,10 @@
 
 	.copyright {
 		margin-top: 2rem;
+		
+		@include media-breakpoint-down(sm) {
+			text-align: center;
+		}
 
 		img {
 			filter: invert(1) saturate(0) brightness(2);

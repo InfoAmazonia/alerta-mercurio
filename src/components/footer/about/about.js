@@ -9,7 +9,7 @@ import logoArmandoInfo from "../../../images/logo-armando-info.src.svg";
 import logoFantastico from "../../../images/logo-fantastico.src.svg";
 import logoGlobo from "../../../images/logo-globo.src.svg";
 import logoIucn from "!url-loader!../../../images/logo-iucn.png";
-import logoPulitzer from "../../../images/logo-pulitzer.src.svg";
+import logoPulitzer from "!url-loader!../../../images/logo-pulitzer.png";
 
 export default function Header() {
 	const intl = useIntl()
