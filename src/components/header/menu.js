@@ -43,7 +43,7 @@ const Menu = () => {
 							</Link>
 						</li>
 						<li className="menu-item">
-							Navegue por país
+							<FormattedMessage id="menu.browse" />
 						</li>
 					</ul>
 				</div>
