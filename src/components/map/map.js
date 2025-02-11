@@ -29,7 +29,7 @@ export default function Map() {
 		"pt": ChartPT
 	}
 
-	mapboxgl.accessToken = 'pk.eyJ1IjoiaW5mb2FtYXpvbmlhIiwiYSI6InItajRmMGsifQ.JnRnLDiUXSEpgn7bPDzp7g';
+	mapboxgl.accessToken = 'pk.eyJ1IjoiaW5mb2FtYXpvbmlhIiwiYSI6ImNtNzB3ZHZ6YjA2amYyaXB4NjhtOXd1MHUifQ.WeAOsQXNTLywJbSeDoFuBQ';
 
 	useEffect(() => {
 		setMap(
